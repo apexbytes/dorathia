@@ -16,7 +16,7 @@ body { font-family: 'Inter', sans-serif; color: var(--text-main); line-height: 1
 /* --- Hero & Transparent Nav --- */
 .hero-wrapper {
     background: linear-gradient(rgba(26, 42, 77, 0.7), rgba(26, 42, 77, 0.7)), 
-                url('images/hero.jpg');
+                url('./images/hero.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -127,7 +127,7 @@ body { font-family: 'Inter', sans-serif; color: var(--text-main); line-height: 1
     color: var(--white);
     /* Subtle texture overlay to match the UI's depth */
     background-image: linear-gradient(rgba(26, 42, 77, 0.95), rgba(26, 42, 77, 0.95)), 
-                      url('images/dark-bg.jpg');
+                      url('./images/dark-bg.jpg');
 }
 
 .dark-bg h2 {
